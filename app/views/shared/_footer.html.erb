@@ -1,18 +1,1 @@
 
-<footer class="footer mt-auto py-3">
-  <div class="container">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      <%= link_to root_path, class: "col-md-2 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none" do %>
-        <picture>
-          <source srcset="<%= asset_pack_path('media/img/logo-transparent-sm-bare.png') %>" media="(prefers-color-scheme: light) or (prefers-color-scheme: no-preference)">
-          <source srcset="<%= asset_pack_path('media/img/logo-transparent-sm-dark-bare.png') %>" media="(prefers-color-scheme: dark)">
-          <img src="<%= asset_pack_path('media/img/logo-transparent-sm-bare.png') %>" alt="Password Pusher Logo" style='height: 40px;' />
-        </picture>
-      <% end %>
-
-      <ul class="nav col-md-5 justify-content-end">
-        <li class="nav-item"><%= link_to _('Front Page'), root_path, class: 'nav-link px-2 text-muted' %></li>
-      </ul>
-    </footer>
-  </div>
-</footer>
